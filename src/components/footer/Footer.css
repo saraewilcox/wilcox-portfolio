@@ -1,0 +1,19 @@
+.footer-text {
+  padding-top: 20px;
+  text-align: center;
+  color: #868e96 !important;
+}
+
+.dark-mode {
+  color: white !important;
+}
+
+.dark-mode .footer-text {
+  background-color: #5e5e63;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: #5e5e63;
+}
