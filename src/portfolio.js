@@ -37,7 +37,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your GIS web mapping applications"
     ),
     emoji(
-      "⚡ 15+ years of experience with Esri software, from GPS data collection to publishing web maps in ArcGIS Online"
+      "⚡ 15+ years of experience with QGIS and Esri software, from GPS data collection to publishing web maps in ArcGIS Online"
     ),
     emoji(
       "⚡ Integration of third party services such as Heroku / Digital Ocean"
