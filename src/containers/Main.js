@@ -4,6 +4,7 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
+import DeployedProjects from "./DeployedProjects/DeployedProjects";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import {StyleProvider} from "../contexts/StyleContext";
@@ -43,6 +44,7 @@ export default class Main extends Component {
           <Skills />
           <Education />
           <WorkExperience />
+          <DeployedProjects />
           <Projects />
           <Profile />
           <Footer />

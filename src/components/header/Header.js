@@ -8,6 +8,7 @@ import {
   educationInfo,
   skillsSection,
   openSource,
+  deployedProjects,
 } from "../../portfolio";
 
 function Header() {
@@ -16,6 +17,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewEducation = educationInfo.display;
   const viewOpenSource = openSource.display;
+  const viewDeployedApps=deployedProjects.display;
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
@@ -45,6 +47,11 @@ function Header() {
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
+            </li>
+          )}
+          {viewDeployedApps && (
+            <li>
+              <a href="#deployedapps">Deployed Apps</a>
             </li>
           )}
           {viewOpenSource && (

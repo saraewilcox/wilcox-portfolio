@@ -235,6 +235,51 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// Some big projects you have worked on
+
+const deployedProjects = {
+  title: "Deployed Apps",
+  subtitle: "SOME WEBSITES THAT WERE CREATED DURING MY WEB DEVELOPMENT BOOTCAMP",
+  projects: [
+    {
+      image: require("./assets/images/watermelon (1).webp"),
+      projectName: "watermelon",
+      projectDesc: "Create playlists with your friends. A blend of kahoot and Spotify.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://watermelon-jams-ts7rp.ondigitalocean.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/Traffic (1).webp"),
+      projectName: "Washington, D.C. traffic app",
+      projectDesc: "Last 24 hours of traffic data using the ArcGIS for JavaScript API",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://traffic-app-arcgis-api-for-js.herokuapp.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/lisbon (1).webp"),
+      projectName: "Lisbon Street Art",
+      projectDesc: "Showing Lisbon's best street art with routing capabilities using the Google Places API",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://lisbon-street-art.herokuapp.com/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -251,6 +296,7 @@ export {
   skillsSection,
   educationInfo,
   workExperiences,
+  deployedProjects,
   openSource,
   contactInfo
 };
