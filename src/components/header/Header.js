@@ -8,6 +8,7 @@ import {
   educationInfo,
   skillsSection,
   openSource,
+  cartographicExamples,
   deployedProjects,
 } from "../../portfolio";
 
@@ -17,6 +18,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewEducation = educationInfo.display;
   const viewOpenSource = openSource.display;
+  const viewCartographicExamples = cartographicExamples.display;
   const viewDeployedApps=deployedProjects.display;
   return (
     <Headroom>
@@ -49,6 +51,11 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
+          {viewCartographicExamples && (
+            <li>
+              <a href="#cartographicexamples">Cartographic Examples</a>
+            </li>
+          )}     
           {viewDeployedApps && (
             <li>
               <a href="#deployedapps">Deployed Apps</a>

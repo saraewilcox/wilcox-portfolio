@@ -4,6 +4,7 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
+import CartographicExamples from "./CartographicExamples/CartographicExamples";
 import DeployedProjects from "./DeployedProjects/DeployedProjects";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
@@ -44,6 +45,7 @@ export default class Main extends Component {
           <Skills />
           <Education />
           <WorkExperience />
+          <CartographicExamples />
           <DeployedProjects />
           <Projects />
           <Profile />

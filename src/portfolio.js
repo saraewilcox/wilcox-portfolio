@@ -235,6 +235,83 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// Some examples of cartographic output
+
+const cartographicExamples = {
+  title: "Cartographic Examples",
+  subtitle: "SOME CARTOGRAPHIC PRODUCTS I'VE CREATED DURING MY CAREER",
+  projects: [
+    {
+      image: require("./assets/images/Engineering_firm_Glenrock_Wyoming.JPG"),
+      projectName: "Subsidence Mitigation - Location Map",
+      projectDesc: "Approximate locations of decomissioned coal mines in Glenrock, Wyoming",
+      footerLink: [
+        {
+          name: "View Map",
+          url: "https://drive.google.com/file/d/1KWLs6eZywVVX8w_NsxElJ2EQDJD5StUp/view?usp=sharing"
+        }
+      ]
+    },    
+    {
+      image: require("./assets/images/Engineering_firm_example_Mine_Grouting_Map.JPG"),
+      projectName: "Subsidence Mitigation - Mine Grouting Map",
+      projectDesc: "Example of daily report map. Shows the cubic yards of grout pumped into the boreholes.",
+      footerLink: [
+        {
+          name: "View Map",
+          url: "https://drive.google.com/file/d/1xRQmpjfgw8cSKSwBUiQk_FGN3nrLURDw/view?usp=sharing"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/National Elk Route Location Map.JPG"),
+      projectName: "Road Inventory Program location map sample",
+      projectDesc: "Example of cartographic page from National Elk Refuge Road Inventory Program report",
+      footerLink: [
+        {
+          name: "View Map",
+          url: "https://drive.google.com/file/d/1YZXI65PKbiOrXsyXnRjS8-nUffVBs1Vv/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/National Elk Report Sample Page.JPG"),
+      projectName: "Road Inventory Program detailed page example",
+      projectDesc: "Sample of cartographic page from National Elk Refuge Road Inventory Program report",
+      footerLink: [
+        {
+          name: "View Map",
+          url: "https://drive.google.com/file/d/1s_osWqIc884TCxglzf9EzZEmLIVEImTF/view?usp=sharing"
+        }
+      ]
+    },    
+    {
+      image: require("./assets/images/Merrit Island Route Location Map.JPG"),
+      projectName: "Road Inventory Program location map sample",
+      projectDesc: "Example of cartographic product for field data collection of Merritt Island National Wildlife Refuge",
+      footerLink: [
+        {
+          name: "View Map",
+          url: "https://drive.google.com/file/d/1sGnybkMlNrkLEfHVNHpyiBio38zpmzuo/view?usp=sharing"
+        }
+      ]
+    },  
+    {
+      image: require("./assets/images/Great Dismal Swamp Route Location Map.JPG"),
+      projectName: "Road Inventory Program location map sample",
+      projectDesc: "Example of cartographic page from Great Dismal Swamp National Wildlife Refuge Road Inventory Program report",
+      footerLink: [
+        {
+          name: "View Map",
+          url: "https://drive.google.com/file/d/13HFPP9ro-fBU-pZD3GA1fworhKGv7sXl/view?usp=sharing"
+        }
+      ]
+    },            
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Some big projects you have worked on
 
 const deployedProjects = {
@@ -242,7 +319,7 @@ const deployedProjects = {
   subtitle: "SOME WEBSITES THAT WERE CREATED DURING MY WEB DEVELOPMENT BOOTCAMP",
   projects: [
     {
-      image: require("./assets/images/watermelon (1).webp"),
+      image: require("./assets/images/watermelon-landing.JPG"),
       projectName: "watermelon",
       projectDesc: "Create playlists with your friends. A blend of kahoot and Spotify.",
       footerLink: [
@@ -254,7 +331,7 @@ const deployedProjects = {
       ]
     },
     {
-      image: require("./assets/images/Traffic (1).webp"),
+      image: require("./assets/images/arcgis-for-javascript-api-react-traffic-app.JPG"),
       projectName: "Washington, D.C. traffic app",
       projectDesc: "Last 24 hours of traffic data using the ArcGIS for JavaScript API",
       footerLink: [
@@ -265,9 +342,9 @@ const deployedProjects = {
       ]
     },
     {
-      image: require("./assets/images/lisbon (1).webp"),
+      image: require("./assets/images/lisbon-street-art.JPG"),
       projectName: "Lisbon Street Art",
-      projectDesc: "Showing Lisbon's best street art with routing capabilities using the Google Places API",
+      projectDesc: "Locations of Lisbon's best street art with routing capabilities using the Google Places API",
       footerLink: [
         {
           name: "Visit Website",
@@ -296,6 +373,7 @@ export {
   skillsSection,
   educationInfo,
   workExperiences,
+  cartographicExamples,
   deployedProjects,
   openSource,
   contactInfo
