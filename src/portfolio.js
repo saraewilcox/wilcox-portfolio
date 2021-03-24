@@ -316,7 +316,7 @@ const cartographicExamples = {
 
 const deployedProjects = {
   title: "Deployed Apps",
-  subtitle: "SOME WEBSITES THAT WERE CREATED DURING MY WEB DEVELOPMENT BOOTCAMP",
+  subtitle: "SOME WEBSITES CREATED DURING MY WEB DEVELOPMENT BOOTCAMP",
   projects: [
     {
       image: require("./assets/images/watermelon-landing.JPG"),
