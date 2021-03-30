@@ -53,7 +53,7 @@ function Header() {
           )}
           {viewCartographicExamples && (
             <li>
-              <a href="#cartographicexamples">Cartographic Examples</a>
+              <a href="#cartographicexamples">Cartographic Samples</a>
             </li>
           )}     
           {viewDeployedApps && (

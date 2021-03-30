@@ -238,7 +238,7 @@ const openSource = {
 // Some examples of cartographic output
 
 const cartographicExamples = {
-  title: "Cartographic Examples",
+  title: "Cartographic Samples",
   subtitle: "SOME CARTOGRAPHIC PRODUCTS I'VE CREATED DURING MY CAREER",
   projects: [
     {
