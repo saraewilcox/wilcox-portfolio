@@ -11,11 +11,7 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made by Sara Wilcox")}
-          <br/>
-          Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            developerFolio
-          </a>    
+          <br/>   
         </p>
       </div>
     </Fade>
