@@ -14,7 +14,7 @@ const greeting = {
     "A passionate Full Stack Software Developer with experience in building Web and Desktop GIS applications with ArcGIS / QGIS / JavaScript / Reactjs / Nodejs / ArcPy."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1TqhzMXgV6qC5lI90z1LKOJZD8nEeopZv/view?usp=sharing",
+    "https://drive.google.com/file/d/1a1XxKn8frSkcfXec79TWAtcMXcvZRPhK/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -316,20 +316,8 @@ const cartographicExamples = {
 
 const deployedProjects = {
   title: "Deployed Apps",
-  subtitle: "SOME WEBSITES CREATED DURING MY WEB DEVELOPMENT BOOTCAMP",
+  subtitle: "Some Projects Created During My Web Development Bootcamp",
   projects: [
-    {
-      image: require("./assets/images/watermelon-landing.JPG"),
-      projectName: "watermelon",
-      projectDesc: "Create playlists with your friends. A blend of kahoot and Spotify.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://watermelon-jams-ts7rp.ondigitalocean.app/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
     {
       image: require("./assets/images/arcgis-for-javascript-api-react-traffic-app.JPG"),
       projectName: "Washington, D.C. traffic app",
@@ -350,6 +338,18 @@ const deployedProjects = {
           name: "Visit Website",
           url: "https://lisbon-street-art.herokuapp.com/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/watermelon-landing.JPG"),
+      projectName: "watermelon",
+      projectDesc: "Create playlists with your friends. A blend of kahoot and Spotify.",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/saraewilcox/watermelon-client"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
